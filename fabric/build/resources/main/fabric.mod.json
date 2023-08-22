@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "examplemod",
+  "version": "1.0.0+fabric-1.20.1",
+  "name": "Example Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "Insert License Here",
+  "icon": "assets/examplemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.examplemod.fabric.ExampleModFabric"
+    ]
+  },
+  "mixins": [
+    "examplemod.mixins.json",
+    "examplemod-common.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.20.1",
+    "fabricloader": ">=0.14.21",
+    "fabric-api": ">=0.86.0+1.20.1",
+    "create": "0.5.1-d-build.1145+mc1.20.1"
+  }
+}
