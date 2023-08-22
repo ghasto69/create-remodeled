@@ -16,7 +16,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.createremodeled.createremodeled.fabric.ExampleModFabric"
+      "net.createremodeled.createremodeled.fabric.CreateRemodeledFabric"
     ]
   },
   "mixins": [
