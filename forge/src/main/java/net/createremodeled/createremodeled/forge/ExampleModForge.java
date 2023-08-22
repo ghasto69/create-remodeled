@@ -10,7 +10,7 @@ public class ExampleModForge {
     public ExampleModForge() {
         // registrate must be given the mod event bus on forge before registration
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        ExampleBlocks.REGISTRATE.registerEventListeners(eventBus);
+        CreateRemodeled.REGISTRATE.registerEventListeners(eventBus);
         CreateRemodeled.init();
     }
 }
