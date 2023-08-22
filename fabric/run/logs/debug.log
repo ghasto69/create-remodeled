@@ -224,7 +224,7 @@
 [18:25:22] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.registry.sync.FabricRegistryInit for mod fabric-registry-sync-v0 (key main)
 [18:25:22] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.gametest.FabricGameTestModInitializer for mod fabric-gametest-api-v1 (key main)
 [18:25:22] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer io.github.fabricators_of_create.porting_lib.PortingLibTransfer for mod porting_lib_transfer (key client)
-[18:25:22] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.examplemod.fabric.ExampleModFabric for mod examplemod (key main)
+[18:25:22] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer fabric.net.createremodeled.createremodeled.ExampleModFabric for mod examplemod (key main)
 [18:25:22] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer io.github.fabricators_of_create.porting_lib.tags.data.DataGenerators for mod porting_lib_tags (key fabric-datagen)
 [18:25:22] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer io.github.fabricators_of_create.porting_lib.tags.Tags for mod porting_lib_tags (key main)
 [18:25:22] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.lookup.ApiLookupImpl for mod fabric-api-lookup-api-v1 (key main)
@@ -5524,7 +5524,7 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 [18:25:31] [Render thread/DEBUG] (FabricLoader/Mixin) Mixing SimpleResourceReloadMixin from fabric-resource-loader-v0.mixins.json into net.minecraft.server.packs.resources.SimpleReloadInstance
 [18:25:31] [Render thread/DEBUG] (FabricLoader/Mixin) fabric-resource-loader-v0.mixins.json:SimpleResourceReloadMixin from mod fabric-resource-loader-v0: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
 [18:25:31] [Render thread/DEBUG] (FabricLoader/Mixin) fabric-resource-loader-v0.mixins.json:SimpleResourceReloadMixin from mod fabric-resource-loader-v0->@Inject::method_40087(Lnet/minecraft/server/packs/resources/ResourceManager;Ljava/util/List;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
-[18:25:31] [Render thread/INFO] (Example Mod) Hello from net.examplemod.ExampleMod!
+[18:25:31] [Render thread/INFO] (Example Mod) Hello from net.createremodeled.createremodeled.CreateRemodeled!
 [18:25:31] [Render thread/DEBUG] (FabricLoader/Mixin) Mixing client.FogRendererMixin from porting_lib_base.mixins.json into net.minecraft.client.renderer.FogRenderer
 [18:25:31] [Render thread/DEBUG] (FabricLoader/Mixin) Mixing BackgroundRendererMixin from milk.mixins.json into net.minecraft.client.renderer.FogRenderer
 [18:25:31] [Render thread/DEBUG] (FabricLoader/Mixin) ArgsClassGenerator assigning org.spongepowered.asm.synthetic.args.Args$8 for descriptor (FFFF)V
@@ -5867,7 +5867,7 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 [18:25:34] [Render thread/INFO] (net.minecraft.client.renderer.texture.TextureAtlas) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
 [18:25:34] [Render thread/INFO] (net.minecraft.client.renderer.texture.TextureAtlas) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
 [18:25:34] [Render thread/INFO] (com.jozufozu.flywheel.backend.Backend) Loaded all shader sources.
-[18:25:34] [Render thread/INFO] (Example Mod) Hello from net.examplemod.ExampleMod!
+[18:25:34] [Render thread/INFO] (Example Mod) Hello from net.createremodeled.createremodeled.CreateRemodeled!
 [18:25:36] [Render thread/DEBUG] (com.mojang.blaze3d.vertex.BufferBuilder) Needed to grow BufferBuilder buffer: Old size 1536 bytes, new size 2098688 bytes.
 [18:25:36] [Render thread/DEBUG] (FabricLoader/Mixin) Mixing RenderLayersMixin from fabric-blockrenderlayer-v1.mixins.json into net.minecraft.client.renderer.ItemBlockRenderTypes
 [18:25:36] [Render thread/DEBUG] (FabricLoader/Mixin) fabric-blockrenderlayer-v1.mixins.json:RenderLayersMixin from mod fabric-blockrenderlayer-v1: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
@@ -7835,5 +7835,5 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [18:30:26] [Server thread/DEBUG] (com.simibubi.create.Create) Removed Redstone Network Space for minecraft:the_nether
 [18:30:26] [Server thread/DEBUG] (com.simibubi.create.Create) Removed Kinetic Network Space for minecraft:the_nether
 [18:30:26] [Server thread/DEBUG] (net.minecraftforge.fml.config.ConfigTracker) Unloading configs type SERVER
-[18:30:26] [Render thread/INFO] (Example Mod) Hello from net.examplemod.ExampleMod!
+[18:30:26] [Render thread/INFO] (Example Mod) Hello from net.createremodeled.createremodeled.CreateRemodeled!
 [18:30:28] [Render thread/INFO] (net.minecraft.client.Minecraft) Stopping!
